@@ -15,6 +15,7 @@ func main() {
 	if err != nil {
 		log.Fatalln(err.Error())
 	}
+	
 
 	// Ctrl+C handling
 	handler := make(chan os.Signal, 1)
